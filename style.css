@@ -1,0 +1,307 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: #ffffff;
+  height: 4811px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation {
+  background: #ffffff;
+  height: 164px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-m, 48px);
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 80px;
+  top: 56px;
+}
+.page {
+  color: #000000;
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 150%);
+  font-weight: var(--body-text-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  background: #000000;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+  );
+}
+.button2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--small-text-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 150%);
+  font-weight: var(--small-text-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.site-name {
+  color: #000000;
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 150%);
+  font-weight: var(--body-text-font-weight, 500);
+  position: absolute;
+  left: 80px;
+  top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-image {
+  border-radius: 8px;
+  width: 88.89%;
+  height: 640px;
+  position: absolute;
+  right: 5.56%;
+  left: 5.56%;
+  top: calc(50% - 1824.5px);
+  overflow: hidden;
+  object-fit: cover;
+}
+.section-heading {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: 1371px;
+  width: 624px;
+}
+.frame-1321317456 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1279px;
+  position: absolute;
+  left: 80px;
+  top: 1477px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.image {
+  border-radius: 8px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 405px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 381px;
+  position: relative;
+}
+.subheading {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.body-text-for-whatever-you-d-like-to-add-more-to-the-subheading {
+  color: #828282;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body-text-for-whatever-you-d-like-to-expand-on-the-main-point {
+  color: #828282;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body-text-for-whatever-you-d-like-to-share-more {
+  color: #828282;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.viz-tkarte {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  position: absolute;
+  left: 80px;
+  top: 2198px;
+  width: 769px;
+  height: 65px;
+}
+.copy2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 844px;
+  position: absolute;
+  left: 79px;
+  top: 212px;
+}
+.page-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.darbi-pieredze-m-ksla-un-hobiji-kas-veido-unik-lo-t-lu {
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  font-family: var(--subheading-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--subheading-font-size, 24px);
+  line-height: var(--subheading-line-height, 150%);
+  font-weight: var(--subheading-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button3 {
+  background: #000000;
+  border-radius: 8px;
+  padding: 20px 32px 20px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+  );
+}
+.button4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component-1 {
+  width: 1283.58px;
+  height: 398px;
+  position: absolute;
+  left: 65px;
+  top: 2367px;
+}
+.vizitkarte-copy-3 {
+  width: 50.68%;
+  height: 398px;
+  position: absolute;
+  right: 49.32%;
+  left: 0%;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 650.58/398;
+}
+.vizitkarte-copy-2-1 {
+  opacity: 0.5;
+  width: 50.68%;
+  height: 398px;
+  position: absolute;
+  right: 0%;
+  left: 49.32%;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 650.58/398;
+}
